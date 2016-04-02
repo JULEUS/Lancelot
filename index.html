@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <head>
 	<meta charset="utf-8">
 	<title>BrainAcad</title>
@@ -18,7 +19,16 @@
 	<blockquote><em>Обучение программированию не может научить быть экспертом, также как и изучение кистей и красок не может превратить кого-либо в художника.
 — Eric S. Raymond</em></blockquote>
 
-	<form></form>
+	<details>
+		<p>Short interview</p>
+		<p>Do you like this course?</p>
+		<input list="answer">
+		<datalist id="answer">
+			<option>Yes</option>
+			<option>No</option>
+			<option>Can't say - I'm afraid))</option>
+		</datalist>
+	</details>
 
 	<table>
 		<caption><b>Our Team</b></caption>
@@ -42,16 +52,24 @@
 	</table>
 	<!-- Add yourself if you are a member of this team -->
 	
-	<details>
-		<p>Short interview</p>
-		<p>Do you like this course?</p>
-		<input list="answer">
-		<datalist id="answer">
-			<option>Yes</option>
-			<option>No</option>
-			<option>Can't say - I'm afraid))</option>
-		</datalist>
-	</details>
+	<form>
+		<fieldset>
+			<legend>What is easy for you?</legend>
+			<input type="checkbox">JavaScript<br>
+			<input type="checkbox">HTML<br>
+			<input type="checkbox">CSS<br>
+			<input type="checkbox">Git<br>
+	<!-- Add program if you want -->
+			<input type="submit">
+		</fieldset>
+	</form>
+
+	<article>
+		<figure>
+		<p><img src="http://brainacad.com/wp-content/uploads/2013/02/frontdev.jpg" alt=""/></p>
+		<figcaption>Front-End</figcaption>
+
+	</article>
 
 	<footer>&copy Julia Demchenko</footer>
 </body>
