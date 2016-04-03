@@ -28,7 +28,7 @@ header{
 	position: relative; /* Относительное позиционирование */
     transform-style: preserve-3d; /* Вращение в 3D */
     transition: 1s; /* Время вращения */
-    clear: both;
+   
 }
 .picture:hover {
     transform: rotateY(180deg); /* При наведении вращаем фото */
