@@ -25,23 +25,23 @@ header{
 
 }
 .picture{
-	position: relative; /* Относительное позиционирование */
-    transform-style: preserve-3d; /* Вращение в 3D */
-    transition: 1s; /* Время вращения */
+	position: relative; 
+    transform-style: preserve-3d; 
+    transition: 1s; 
    
 }
 .picture:hover {
-    transform: rotateY(180deg); /* При наведении вращаем фото */
+    transform: rotateY(180deg); 
 }
 .front-side {
- 	position: absolute; /* Абсолютное позиционирование */
-    top: 0; bottom: 0; /* Задаём так равную высоту */
+ 	position: absolute; 
+    top: 0; bottom: 0; 
 }
 .back-side{
-	background: #4B846A; /* Цвет фона */
-    font: 18px/1.6 Arial; /* Параметры шрифта */
-    padding: 20px; /* Поля вокруг текста */
-    color: #fff; /* Цвет текста */
-    transform: rotateY(180deg); /* Вращаем по оси Y */
-    backface-visibility: hidden; /* Скрываем обратную поверхность */
+	background: #4B846A; 
+    font: 18px/1.6 Arial; 
+    padding: 20px; 
+    color: #fff; 
+    transform: rotateY(180deg); 
+    backface-visibility: hidden; 
 }
