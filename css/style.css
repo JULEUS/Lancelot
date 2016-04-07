@@ -125,8 +125,21 @@ h3 {
 }
 .conteiner-image
 .container-watch
-.apple-watch-2
-.plus
+.apple-watch-2{
+	position: relative;
+}
+
+.circle {
+	border-radius: 100px;
+    width: 100%;
+    display: block;
+    line-height: 31px;
+    cursor: pointer;
+    position: absolute;
+    z-index: 2;
+    transition: all 300ms linear 0s;
+}
+}
 .one
 .two
 .three
