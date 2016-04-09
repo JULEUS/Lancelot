@@ -147,6 +147,7 @@ h3 {
     background-color: #0c4eca;
     border-radius: 50%;
     color: #fff;
+    text-align: center;
 }
 .circle:hover::before{
     content: "";
@@ -178,10 +179,77 @@ h3 {
     bottom: 110px;
     left: 24px;
 }
-container-bloks
-blok
 
 
+
+.section-2{
+    margin: 0;
+    padding: 100px 0;
+    display: block;
+    height: 800px;
+    background-color: #f8fbfd;
+    background-size: cover;    
+}
+.container-bloks{
+    display: block;
+    padding-top: 40px;
+    box-align: center;
+}
+.block{
+    display: inline-block;
+    width: 33%;
+    float: left;
+    margin: 0 auto;
+    padding: 0 30px;
+    position: relative;  
+}
+h4{
+    display: block;
+    font:  600 33px/1 "Poppins",sans-serif;
+    margin: 0 0 20px;
+    padding-top: 40px;
+    color: #696969;
+}
+.block-description{
+    max-width: 800px;
+    margin: 0 auto 40px;
+    padding: 0;
+    font: 300 17px/28px "Poppins",sans-serif;
+    color: #A9A9A9;
+}
+.block-arrow{
+    position: absolute;
+    display: block;
+    top: 36px;
+    right: 0px;
+    width: 25px;
+    height: 25px;
+    border-top: 1px solid #a6afba;
+    border-right: 1px solid #a6afba;
+    transform: rotate(45deg);
+}
+
+
+
+.section-3{
+    margin: 0;
+    padding: 100px 0;
+    display: block;
+    height: 800px;
+}
+.benefits-block-1{
+
+}
+h5{
+    display: block;
+    font:  600 30px/1 "Poppins",sans-serif;
+    margin: 0 0 20px;
+    padding-top: 40px;
+    color: #696969;
+}
+.block-description-2{
+
+}
 
 
 
