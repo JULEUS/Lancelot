@@ -230,27 +230,153 @@ h4{
 }
 
 
-
 .section-3{
     margin: 0;
     padding: 100px 0;
     display: block;
     height: 800px;
 }
-.benefits-block-1{
-
-}
-h5{
+.product-description-2::after{
+    content: "";
     display: block;
-    font:  600 30px/1 "Poppins",sans-serif;
-    margin: 0 0 20px;
-    padding-top: 40px;
-    color: #696969;
+    width: 80px;
+    height: 5px;
+    margin: 20px auto 60px auto;
+    background-color: #eee;
 }
-.block-description-2{
-
+.section3-bloks{
+    display: block;
+    width: 1290px;
 }
 
+.benefits-block-1{
+    display: inline-block;
+    position: relative;
+    width: 25%;
+    margin: 0 20px;
+}
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("./110798-linecons/font/Flaticon.eot");
+  src: url("./110798-linecons/font/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./110798-linecons/font/Flaticon.woff") format("woff"),
+       url("./110798-linecons/font/Flaticon.ttf") format("truetype"),
+       url("./110798-linecons/font/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.flaticons {
+    font-family: "Flaticon", sans-serif;
+    display: inline-block;
+    font-style: normal;
+    font-size: 35px;
+    color: #0f33ff;
+    position: absolute;
+    top: 30px;
+    left: -23px;
+}
+.flaticon-location-gps::before { content: "\f113"; }
+.flaticon-heart-shape::before { content: "\f110"; }
+.flaticon-locked-padlock::before { content: "\f114"; }
+.flaticon-small-light-bulb::before { content: "\f122"; }
+.flaticon-banknote::before { content: "\f100"; }
+.flaticon-chemistry::before { content: "\f104"; }
+
+.p-left{
+    text-align: left;
+}
+
+
+
+
+.section-vertical-blocks{
+    display: inline-block;
+    margin: 10px 0;
+    padding: 0;
+    background-color: #f8fbfd;
+    background-size: cover;
+}
+.section-4{
+    display: inline-block;
+    margin: 100px 60px;
+    padding: 0;
+    width: 25%;
+}
+.block-2{
+    display: block;
+    position: relative;
+    margin: 0
+    padding: 0;
+}
+.block-description{
+}
+.flaticon-small-key::before { content: "\f121"; }
+.flaticon-big-megaphone::before { content: "\f101"; }
+.flaticon-diamond::before { content: "\f108"; }
+.flaticon-like:before { content: "\f112"; }
+.flaticon-user-avatar::before { content: "\f12a"; }
+.flaticon-wristwatch::before { content: "\f12e"; }
+
+
+
+
+
+
+
+
+.section-5{
+    display: block;
+    margin: 150px 0 100px 0;
+    padding: 0;
+}
+.conteiner-section-5{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+.list-section-5{
+    display: inline-block;
+    list-style-type: none;
+}
+.section-5-img{}
+.step-theme-section-5{
+    display: block;
+    margin: 15px 0 0 0;
+    padding: 0;
+    font: 600 17px/28px "Poppins",sans-serif;
+    color: #1E90FF;
+}
+.step-description-section-5{
+    display: block;
+    margin: 0;
+    padding: 0;
+    font: 300 15px/1px "Poppins",sans-serif;
+    color: #D3D3D3;
+}
+.price{
+    display: block;
+    margin: 15px 0;
+    padding: 0;
+    font: 700 18px/28px "Poppins",sans-serif;
+    color:  #FF4500;
+}
+.section-5-button{
+    display: block;
+    margin: 0 70px;
+    padding: 0;
+    font: 300 12px/28px "Poppins",sans-serif;
+    color: #D3D3D3;
+    text-decoration: none;
+    border: 0.5px solid #DCDCDC;
+    border-radius: 40px;
+    cursor: pointer;
+}
+.section-5-button:focus, .section-5-button:hover{
+    background:  #374048;
+
+    
 
 
 
