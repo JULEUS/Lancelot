@@ -23,8 +23,9 @@ nav {
     margin: 0;
     position: fixed;
     top:0;
-    background-color: #DCDCDC;
+    background-color: white;
     z-index: 2;
+    width: 1300px;
 }
 .header-logo {
     display: block;
@@ -221,7 +222,7 @@ h4{
     position: absolute;
     display: block;
     top: 36px;
-    right: 0px;
+    right: 0;
     width: 25px;
     height: 25px;
     border-top: 1px solid #a6afba;
@@ -307,7 +308,7 @@ h4{
 .block-2{
     display: block;
     position: relative;
-    margin: 0
+    margin: 0;
     padding: 0;
 }
 .block-description{
@@ -375,9 +376,81 @@ h4{
 }
 .section-5-button:focus, .section-5-button:hover{
     background:  #374048;
-
-    
-
+}
 
 
 
+
+.section-6{
+    margin:0;
+    padding:0;
+    width: 1300px;
+    background-color: #f8fbfd;
+    background-size: cover;
+
+}
+.container-6{
+    margin:0;
+    padding:0;
+}
+.watch{
+    display: block;
+    margin:0 100px;
+    padding:0 100px;
+    float: left;
+    width: 50%;
+}
+.watch-name{
+    text-align: left;
+    margin: 30px 75px;
+    padding: 100px 0 0;
+
+}
+.watch-description{
+    text-align: left;
+    margin: 0 75px;
+    width:40%;
+    font: 300 23px/32px "Poppins",sans-serif;
+}
+.container-watch-list{
+    display: block;
+    position: relative;
+    margin:0;
+    padding:0;
+    float: left;
+    list-style: none;
+    color: #A9A9A9;
+    text-align: left;
+    font: 300 20px/32px "Poppins",sans-serif;
+}
+
+.watch-list{
+    display: block;
+    position: relative;
+    margin:0;
+    padding:0 75px;
+    float: left;
+    list-style: none;
+    color: #A9A9A9;
+    text-align: left;
+    font: 300 20px/32px "Poppins",sans-serif;
+}
+.watch-list-item{
+    font: 300 20px/32px "Poppins",sans-serif;
+    margin: 20px 0;
+}
+.watch-list-item:before{
+    width: 35px;
+    height: 35px;
+    content: '';
+    background: url("../img/Checkbox Full.png") no-repeat scroll 0 0;
+    float: left;
+}
+.watch-img{
+    display: block;
+    position: relative;
+    margin:0;
+    padding:0;
+    left:400px;   
+    top:-254px;
+}
