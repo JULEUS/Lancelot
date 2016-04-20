@@ -1,46 +1,54 @@
 * {
     box-sizing: border-box;
 }
+
 body {
     margin: 0;
     font-family: sans-serif;
     width: 100%;
     height: 100%;
 }
+
 .clearfix {
     overflow: auto;
 }
+
 .container {
     display: block;
     width: 1270px;
     margin: 0 auto;
     background-size: cover;
-    background: url('../img/header-background.jpg')no-repeat center bottom;
+    background: url('../img/header-background.jpg') no-repeat center bottom;
 }
+
 nav {
     display: block;
     padding: 25px 0;
     margin: 0;
     position: fixed;
-    top:0;
+    top: 0;
     background-color: white;
     z-index: 2;
     width: 1300px;
 }
+
 .header-logo {
     display: block;
     float: left;
     margin: 0 50px;
 }
+
 ul.header-nav {
     float: right;
     padding: 0;
     margin: 0 50px;
     list-style-type: none;
 }
+
 ul.header-nav > li {
     display: inline-block;
 }
+
 ul.header-nav > li > a {
     display: inline-block;
     padding: 18px 10px;
@@ -49,18 +57,22 @@ ul.header-nav > li > a {
     font-size: 20px;
     text-transform: uppercase;
 }
-ul.header-nav > li > a:hover{
+
+ul.header-nav > li > a:hover {
     color: black;
 }
+
 .nav-li-button {
     padding: 5px 10px;
     text-decoration: none;
     background-color: #FF8C00;
     border-radius: 40px;
 }
-.nav-li-button:focus, .nav-li-button:hover{
+
+.nav-li-button:focus, .nav-li-button:hover {
     background: #808080;
 }
+
 .top-banner {
     float: none;
     display: block;
@@ -68,61 +80,67 @@ ul.header-nav > li > a:hover{
     margin: 0;
     text-align: center;
 }
+
 h2 {
     display: block;
-    font:  600 79px/1 "Poppins",sans-serif;
+    font: 600 79px/1 "Poppins", sans-serif;
     margin: 0 0 20px;
     padding: 0;
     color: #696969;
 }
+
 p {
     max-width: 800px;
     display: block;
     margin: 0 auto 40px;
     padding: 0;
-    font: 300 27px/41px "Poppins",sans-serif;
+    font: 300 27px/41px "Poppins", sans-serif;
     color: #A9A9A9;
 }
+
 .paypal-button {
     display: inline-block;
     padding: 15px 80px;
     margin: 0 0 80px 0;
     text-decoration: none;
-    font: 300 27px/41px "Poppins",sans-serif;
+    font: 300 27px/41px "Poppins", sans-serif;
     background-color: dodgerblue;
     border-radius: 40px;
     cursor: pointer;
     color: #fff;
 }
-.paypal-button:focus, .paypal-button:hover{
+
+.paypal-button:focus, .paypal-button:hover {
     background: #000080;
 }
+
 .apple-watch {
     margin: 20px 50px;
 }
-
-
 
 section {
     text-align: center;
     padding: 100px;
 }
+
 h3 {
     display: block;
-    font:  600 48px/1 "Poppins",sans-serif;
+    font: 600 48px/1 "Poppins", sans-serif;
     margin: 0 0 20px;
     padding: 0;
     color: #696969;
 }
+
 .product-description {
     max-width: 800px;
     display: block;
     margin: 0 auto 40px;
     padding: 0;
-    font: 300 25px/41px "Poppins",sans-serif;
+    font: 300 25px/41px "Poppins", sans-serif;
     color: #A9A9A9;
 }
-.product-description::after{
+
+.product-description::after {
     content: "";
     display: block;
     width: 80px;
@@ -130,6 +148,7 @@ h3 {
     margin: 20px auto 60px auto;
     background-color: #eee;
 }
+
 .conteiner-section-1 .circle-container {
     background: url("../img/apple-watch-2.png");
     background-position: center;
@@ -139,9 +158,10 @@ h3 {
     position: relative;
     margin: 0 auto;
 }
-.conteiner-section-1 .circle-container > .circle{
+
+.conteiner-section-1 .circle-container > .circle {
     position: absolute;
-    top:0;
+    top: 0;
     left: 0;
     width: 13px;
     height: 12px;
@@ -150,76 +170,84 @@ h3 {
     color: #fff;
     text-align: center;
 }
-.circle:hover::before{
+
+.circle:hover::before {
     content: "";
     position: absolute;
-    top:-9px;
-    left:-9px;
-    width:25px;
+    top: -9px;
+    left: -9px;
+    width: 25px;
     height: 25px;
     border: 3px solid #0c4eca;
     background-color: transparent;
     border-radius: 50%;
     cursor: pointer;
 }
-.conteiner-section-1 .circle-container > .circle:nth-child(1){
+
+.conteiner-section-1 .circle-container > .circle:nth-child(1) {
     top: 70px;
     right: 23px;
     left: initial;
 }
-.conteiner-section-1 .circle-container > .circle:nth-child(2){
+
+.conteiner-section-1 .circle-container > .circle:nth-child(2) {
     top: 157px;
     left: 1px;
 }
-.conteiner-section-1 .circle-container > .circle:nth-child(3){
+
+.conteiner-section-1 .circle-container > .circle:nth-child(3) {
     top: 265px;
     left: 230px;
 }
-.conteiner-section-1 .circle-container > .circle:nth-child(4){
+
+.conteiner-section-1 .circle-container > .circle:nth-child(4) {
     top: initial;
     bottom: 110px;
     left: 24px;
 }
 
-
-
-.section-2{
+.section-2 {
     margin: 0 auto;
     padding: 100px 0;
     display: block;
     height: 800px;
     width: 1270px;
     background-color: #f8fbfd;
-    background-size: cover;    
+    background-size: cover;
 }
-.container-bloks{
+
+.container-bloks {
     display: block;
     padding-top: 40px;
     box-align: center;
 }
-.block{
+
+.block {
     display: inline-block;
     width: 33%;
     float: left;
     margin: 0 auto;
     padding: 0 30px;
-    position: relative;  
+    position: relative;
 }
-h4{
+
+h4 {
     display: block;
-    font:  600 33px/1 "Poppins",sans-serif;
+    font: 600 33px/1 "Poppins", sans-serif;
     margin: 0 0 20px;
     padding-top: 40px;
     color: #696969;
 }
-.block-description{
+
+.block-description {
     max-width: 800px;
     margin: 0 auto 40px;
     padding: 0;
-    font: 300 17px/28px "Poppins",sans-serif;
+    font: 300 17px/28px "Poppins", sans-serif;
     color: #A9A9A9;
 }
-.block-arrow{
+
+.block-arrow {
     position: absolute;
     display: block;
     top: 36px;
@@ -231,15 +259,15 @@ h4{
     transform: rotate(45deg);
 }
 
-
-.section-3{
+.section-3 {
     margin: 0 auto;
     padding: 100px 0;
     display: block;
     height: 800px;
     width: 1270px;
 }
-.product-description-2::after{
+
+.product-description-2::after {
     content: "";
     display: block;
     width: 80px;
@@ -247,12 +275,13 @@ h4{
     margin: 20px auto 60px auto;
     background-color: #eee;
 }
-.section3-bloks{
+
+.section3-bloks {
     display: block;
     width: 1290px;
 }
 
-.benefits-block-1{
+.benefits-block-1 {
     display: inline-block;
     position: relative;
     width: 25%;
@@ -260,14 +289,14 @@ h4{
 }
 
 @font-face {
-  font-family: "Flaticon";
-  src: url("./110798-linecons/font/Flaticon.eot");
-  src: url("./110798-linecons/font/Flaticon.eot?#iefix") format("embedded-opentype"),
-       url("./110798-linecons/font/Flaticon.woff") format("woff"),
-       url("./110798-linecons/font/Flaticon.ttf") format("truetype"),
-       url("./110798-linecons/font/Flaticon.svg#Flaticon") format("svg");
-  font-weight: normal;
-  font-style: normal;
+    font-family: "Flaticon";
+    src: url("./110798-linecons/font/Flaticon.eot");
+    src: url("./110798-linecons/font/Flaticon.eot?#iefix") format("embedded-opentype"),
+    url("./110798-linecons/font/Flaticon.woff") format("woff"),
+    url("./110798-linecons/font/Flaticon.ttf") format("truetype"),
+    url("./110798-linecons/font/Flaticon.svg#Flaticon") format("svg");
+    font-weight: normal;
+    font-style: normal;
 }
 
 .flaticons {
@@ -280,21 +309,36 @@ h4{
     top: 30px;
     left: -23px;
 }
-.flaticon-location-gps::before { content: "\f113"; }
-.flaticon-heart-shape::before { content: "\f110"; }
-.flaticon-locked-padlock::before { content: "\f114"; }
-.flaticon-small-light-bulb::before { content: "\f122"; }
-.flaticon-banknote::before { content: "\f100"; }
-.flaticon-chemistry::before { content: "\f104"; }
 
-.p-left{
+.flaticon-location-gps::before {
+    content: "\f113";
+}
+
+.flaticon-heart-shape::before {
+    content: "\f110";
+}
+
+.flaticon-locked-padlock::before {
+    content: "\f114";
+}
+
+.flaticon-small-light-bulb::before {
+    content: "\f122";
+}
+
+.flaticon-banknote::before {
+    content: "\f100";
+}
+
+.flaticon-chemistry::before {
+    content: "\f104";
+}
+
+.p-left {
     text-align: left;
 }
 
-
-
-
-.section-vertical-blocks{
+.section-vertical-blocks {
     display: block;
     margin: 10px auto;
     padding: 0;
@@ -302,160 +346,188 @@ h4{
     background-color: #f8fbfd;
     background-size: cover;
 }
-.section-4{
+
+.section-4 {
     display: inline-block;
     margin: 100px 60px;
     padding: 0;
     width: 25%;
 }
-.block-2{
+
+.block-2 {
     display: block;
     position: relative;
     margin: 0;
     padding: 0;
 }
-.block-description{
+
+.block-description {
 }
-.flaticon-small-key::before { content: "\f121"; }
-.flaticon-big-megaphone::before { content: "\f101"; }
-.flaticon-diamond::before { content: "\f108"; }
-.flaticon-like:before { content: "\f112"; }
-.flaticon-user-avatar::before { content: "\f12a"; }
-.flaticon-wristwatch::before { content: "\f12e"; }
 
+.flaticon-small-key::before {
+    content: "\f121";
+}
 
+.flaticon-big-megaphone::before {
+    content: "\f101";
+}
 
+.flaticon-diamond::before {
+    content: "\f108";
+}
 
+.flaticon-like:before {
+    content: "\f112";
+}
 
+.flaticon-user-avatar::before {
+    content: "\f12a";
+}
 
+.flaticon-wristwatch::before {
+    content: "\f12e";
+}
 
-
-.section-5{
+.section-5 {
     display: block;
     margin: 150px 0 100px 0;
     padding: 0;
 }
-.conteiner-section-5{
+
+.conteiner-section-5 {
     display: inline-block;
     margin: 0;
     padding: 0;
 }
-.list-section-5{
+
+.list-section-5 {
     display: inline-block;
     list-style-type: none;
 }
-.section-5-img{}
-.step-theme-section-5{
+
+.section-5-img {
+}
+
+.step-theme-section-5 {
     display: block;
     margin: 15px 0 0 0;
     padding: 0;
-    font: 600 17px/28px "Poppins",sans-serif;
+    font: 600 17px/28px "Poppins", sans-serif;
     color: #1E90FF;
 }
-.step-description-section-5{
+
+.step-description-section-5 {
     display: block;
     margin: 0;
     padding: 0;
-    font: 300 15px/1px "Poppins",sans-serif;
+    font: 300 15px/1px "Poppins", sans-serif;
     color: #D3D3D3;
 }
-.price{
+
+.price {
     display: block;
     margin: 15px 0;
     padding: 0;
-    font: 700 18px/28px "Poppins",sans-serif;
-    color:  #FF4500;
+    font: 700 18px/28px "Poppins", sans-serif;
+    color: #FF4500;
 }
-.section-5-button{
+
+.section-5-button {
     display: block;
     margin: 0 70px;
     padding: 0;
-    font: 300 12px/28px "Poppins",sans-serif;
+    font: 300 12px/28px "Poppins", sans-serif;
     color: #D3D3D3;
     text-decoration: none;
     border: 0.5px solid #DCDCDC;
     border-radius: 40px;
     cursor: pointer;
 }
-.section-5-button:focus, .section-5-button:hover{
-    background:  #374048;
+
+.section-5-button:focus, .section-5-button:hover {
+    background: #374048;
 }
 
-
-
-
-.section-6{
-    margin:0 auto;
-    padding:0;
+.section-6 {
+    margin: 0 auto;
+    padding: 0;
     width: 1300px;
     background-color: #f8fbfd;
     background-size: cover;
 
 }
-.container-6{
-    margin:0;
-    padding:0;
+
+.container-6 {
+    margin: 0;
+    padding: 0;
 }
-.watch{
+
+.watch {
     display: block;
-    margin:0 100px;
-    padding:0 100px;
+    margin: 0 100px;
+    padding: 0 100px;
     float: left;
     width: 50%;
 }
-.watch-name{
+
+.watch-name {
     text-align: left;
     margin: 30px 75px;
     padding: 100px 0 0;
 
 }
-.watch-description{
+
+.watch-description {
     text-align: left;
     margin: 0 75px;
-    width:40%;
-    font: 300 23px/32px "Poppins",sans-serif;
-}
-.container-watch-list{
-    display: block;
-    position: relative;
-    margin:0;
-    padding:0;
-    float: left;
-    list-style: none;
-    color: #A9A9A9;
-    text-align: left;
-    font: 300 20px/32px "Poppins",sans-serif;
+    width: 40%;
+    font: 300 23px/32px "Poppins", sans-serif;
 }
 
-.watch-list{
+.container-watch-list {
     display: block;
     position: relative;
-    margin:0;
-    padding:0 75px;
+    margin: 0;
+    padding: 0;
     float: left;
     list-style: none;
     color: #A9A9A9;
     text-align: left;
-    font: 300 20px/32px "Poppins",sans-serif;
+    font: 300 20px/32px "Poppins", sans-serif;
 }
-.watch-list-item{
-    font: 300 20px/32px "Poppins",sans-serif;
+
+.watch-list {
+    display: block;
+    position: relative;
+    margin: 0;
+    padding: 0 75px;
+    float: left;
+    list-style: none;
+    color: #A9A9A9;
+    text-align: left;
+    font: 300 20px/32px "Poppins", sans-serif;
+}
+
+.watch-list-item {
+    font: 300 20px/32px "Poppins", sans-serif;
     margin: 20px 0;
 }
-.watch-list-item:before{
+
+.watch-list-item:before {
     width: 35px;
     height: 35px;
     content: '';
     background: url("../img/Checkbox Full.png") no-repeat scroll 0 0;
     float: left;
 }
-.watch-img{
+
+.watch-img {
     display: block;
     position: relative;
-    margin:0;
-    padding:0;
-    left:400px;   
-    top:-254px;
+    margin: 0;
+    padding: 0;
+    left: 400px;
+    top: -254px;
 }
 
 .section-9 {
@@ -559,12 +631,11 @@ h4{
     display: inline-block;
 }
 
-
-.section-white{
+.section-white {
     background-color: white;
 }
 
-a{
+a {
     text-decoration: none;
     color: green;
 }
@@ -600,57 +671,192 @@ a{
     font: 400 18px/25px "Poppins", sans-serif;
 }
 
-.section-height{
+.section-height {
     height: 1300px;
 }
 
-.container-12{
-    display:block;
-    border-top: 1px solid  #F5F5F5;
+.container-12 {
+    display: block;
+    border-top: 1px solid #F5F5F5;
 }
 
-.compatibility{
+.compatibility {
     display: inline-block;
     position: relative;
     width: 30%;
     min-height: 230px;
     text-align: left;
-    
+
 }
 
-.container-12-title{
-    font: 20px/1 "Poppins",sans-serif;
+.container-12-title {
+    font: 20px/1 "Poppins", sans-serif;
 }
 
-.conteiner-12-list{
+.conteiner-12-list {
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
-.conteiner-12-list > li{
+.conteiner-12-list > li {
     color: #C0C0C0;
-    font: 300 15px/25px "Poppins",sans-serif;
+    font: 300 15px/25px "Poppins", sans-serif;
 }
 
-.team{
+.team {
     margin: 0 auto;
     padding: 0;
     height: 800px;
 }
-.team-member{
+
+.team-member {
     margin: 0 20px;
     display: inline-block;
     background-color: white;
 }
 
-.member-title{
+.member-title {
     margin: 25px 0 0 0;
-    font: 20px/1 "Poppins",sans-serif;
+    font: 20px/1 "Poppins", sans-serif;
 }
 
-.member-description{
+.member-description {
     margin: 10px 0 20px 0;
-    font: 18px/1 "Poppins",sans-serif;
+    font: 18px/1 "Poppins", sans-serif;
 }
 
+
+.timeline-table{
+    font-size: 0;
+    position: relative;
+}
+.time-line{
+    width: 8px;
+    height: 100%;
+    background-color: #dee0e2;
+    position: absolute;
+    left: calc(50% - 4px);
+}
+.section-center-block{
+    width: 100%;
+}
+.center-block{
+    width: 100px;
+    position: relative;
+    background-color: #dee0e2;
+    color: #bfc2c5;
+    font-size: 15px;
+    padding: 3px 10px 3px 10px;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 4px;
+    line-height: 29px;
+    display: inline-block;
+}
+.row{
+    width: 100%;
+    display: block;
+    margin-top: 40px;
+    line-height: 21px;
+}
+.time-left{
+    width: 50%;
+    float: left;
+}
+.date{
+    display: inline-block;
+    color: #dadce0;
+    font-size: 15px;
+    line-height: 45px;
+}
+.left{
+    float: left;
+    text-align: right;
+}
+.time-right{
+    width: 50%;
+    float: left;
+}
+.text{
+    display: inline-block;
+    background-color: #f5f8fa;
+    font-size: 18px;
+    border-radius: 5px;
+    color: #6a737b;
+    font-weight: 500;
+    padding: 15px 20px 15px 20px;
+    text-align: left;
+    max-width: 300px;
+}
+.right{
+    float: right;
+    text-align: left;
+}
+.time-title{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0;
+    color: #6a737b;
+    font-weight: 600;
+    font-size: 15px;
+    text-align: left;
+}
+.time-description{
+    color: #b7bbbf;
+    font: 300 14px/24px "Poppins", sans-serif;
+    /*font-weight: 300;
+    font-size: 14px;*/
+    margin-bottom: 0;
+    padding-top: 15px;
+    text-align: left;
+}
+.date.left {
+    text-align: center;
+    float: right;
+    width: 100px;
+    margin-right: 50px;
+}
+.date.right {
+    text-align: center;
+    float: left;
+    width: 100px;
+    margin-left: 50px;
+}
+.text.left {
+    text-align: center;
+    float: right;
+    margin-right: 50px;
+}
+.text.right {
+    text-align: center;
+    float: left;
+    margin-left: 50px;
+}
+
+.time-right:before {
+    content: '';
+    width: 12px;
+    height: 12px;
+    margin-top: 10px;
+    padding: 1px;
+    border: 6px solid #dee0e2;
+    border-radius: 100%;
+    display: block;
+    position: absolute;
+    left: calc(50% - 13px);
+    background-color: #fff;
+}
+.time-left:before {
+    content: '';
+    width: 12px;
+    height: 12px;
+    margin-top: 10px;
+    padding: 1px;
+    border: 6px solid #dee0e2;
+    border-radius: 100%;
+    display: block;
+    position: absolute;
+    left: calc(50% - 13px);
+    background-color: #fff;
+}
