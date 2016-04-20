@@ -29,7 +29,7 @@ nav {
     top: 0;
     background-color: white;
     z-index: 2;
-    width: 1300px;
+    width: 1270px;
 }
 
 .header-logo {
@@ -451,7 +451,7 @@ h4 {
 .section-6 {
     margin: 0 auto;
     padding: 0;
-    width: 1300px;
+    width: 1270px;
     background-color: #f8fbfd;
     background-size: cover;
 
@@ -726,22 +726,27 @@ a {
     font: 18px/1 "Poppins", sans-serif;
 }
 
-
-.timeline-table{
+.section-13{
+    height:1200px;
+}
+.timeline-table {
     font-size: 0;
     position: relative;
 }
-.time-line{
+
+.time-line {
     width: 8px;
     height: 100%;
     background-color: #dee0e2;
     position: absolute;
     left: calc(50% - 4px);
 }
-.section-center-block{
+
+.section-center-block {
     width: 100%;
 }
-.center-block{
+
+.center-block {
     width: 100px;
     position: relative;
     background-color: #dee0e2;
@@ -754,31 +759,37 @@ a {
     line-height: 29px;
     display: inline-block;
 }
-.row{
+
+.row {
     width: 100%;
     display: block;
     margin-top: 40px;
     line-height: 21px;
 }
-.time-left{
+
+.time-left {
     width: 50%;
     float: left;
 }
-.date{
+
+.date {
     display: inline-block;
     color: #dadce0;
     font-size: 15px;
     line-height: 45px;
 }
-.left{
+
+.left {
     float: left;
     text-align: right;
 }
-.time-right{
+
+.time-right {
     width: 50%;
     float: left;
 }
-.text{
+
+.text {
     display: inline-block;
     background-color: #f5f8fa;
     font-size: 18px;
@@ -789,11 +800,13 @@ a {
     text-align: left;
     max-width: 300px;
 }
-.right{
+
+.right {
     float: right;
     text-align: left;
 }
-.time-title{
+
+.time-title {
     padding-top: 5px;
     padding-bottom: 5px;
     margin: 0;
@@ -802,32 +815,35 @@ a {
     font-size: 15px;
     text-align: left;
 }
-.time-description{
+
+.time-description {
     color: #b7bbbf;
     font: 300 14px/24px "Poppins", sans-serif;
-    /*font-weight: 300;
-    font-size: 14px;*/
     margin-bottom: 0;
     padding-top: 15px;
     text-align: left;
 }
+
 .date.left {
     text-align: center;
     float: right;
     width: 100px;
     margin-right: 50px;
 }
+
 .date.right {
     text-align: center;
     float: left;
     width: 100px;
     margin-left: 50px;
 }
+
 .text.left {
     text-align: center;
     float: right;
     margin-right: 50px;
 }
+
 .text.right {
     text-align: center;
     float: left;
@@ -847,6 +863,7 @@ a {
     left: calc(50% - 13px);
     background-color: #fff;
 }
+
 .time-left:before {
     content: '';
     width: 12px;
@@ -859,4 +876,45 @@ a {
     position: absolute;
     left: calc(50% - 13px);
     background-color: #fff;
+}
+
+.section-14{
+    margin: 0 auto;
+    padding: 100px 0 0 0;
+    display: block;
+    height: auto;
+    width: 1270px;
+    background: black;
+}
+.section-14:before{
+    content: "";
+    background-image: url("../img/mobile-ap-bg.jpg");
+    background-size: cover;
+    opacity: 0.3;
+}
+.app-container{
+    float: left;
+    width: 50%;
+}
+.app-content{
+    margin-top: 100px;
+    float: right;
+    width: 50%;
+    text-align: left;
+}
+.app-text{
+    width: 550px;
+}
+.app-title{
+    color: white;
+    font: 600 40px/1 "Poppins", sans-serif;
+}
+.app-description{
+    color: gainsboro;
+    font: 300 20px/1.5 "Poppins", sans-serif;
+}
+.app-buttons{}
+.store-img{}
+.play-img{
+    margin: 0 15px;
 }
