@@ -918,3 +918,41 @@ a {
 .play-img{
     margin: 0 15px;
 }
+.section-15{
+    height:
+
+}
+.email-container{
+    display: block;
+}
+.email{
+    display: inline-block;
+    width: 500px;
+    height: 87px;
+    border-color: #3a87ad;
+    border-radius: 5px;
+    font: 400 25px/1 "Poppins", sans-serif;
+    text-align: center;
+    background: #fcfcfd;
+}
+.email-button{
+    display: inline-block;
+    margin: 0;
+    padding:0;
+    border: none;
+    background: none;
+}
+.email-img{
+    display: inline-block;
+    position: relative;
+    margin: 0;
+    padding:0;
+    top: 36px;
+    left: -8px;
+}
+.email-description{
+    color: #dee0e2;
+    font:  200 15px/1 "Poppins", sans-serif;
+    margin:0 auto;
+    padding: 20px 0;
+}
