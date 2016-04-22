@@ -51,17 +51,16 @@ ul.header-nav > li {
 
 ul.header-nav > li > a {
     display: inline-block;
-    padding: 18px 10px;
+    padding: 7px 24px;
     color: #8f969d;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 18px;
     text-transform: uppercase;
 }
 
 ul.header-nav > li > a:hover {
     color: black;
 }
-
 .nav-li-button {
     padding: 5px 10px;
     text-decoration: none;
@@ -919,8 +918,10 @@ a {
     margin: 0 15px;
 }
 .section-15{
-    height:
-
+    height:1350px;
+}
+.conteiner-map-and-contacts{
+    position: relative;
 }
 .email-container{
     display: block;
@@ -955,4 +956,110 @@ a {
     font:  200 15px/1 "Poppins", sans-serif;
     margin:0 auto;
     padding: 20px 0;
+}
+.map-container{}
+.map{}
+.block-on-map{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    margin: 0;
+    padding:0;
+    top: 511px;
+    left:373px;
+}
+.contacts-list {
+    margin: 0;
+    width: 500px;
+    height: 500px;
+    list-style: none;
+    text-align: left;
+    background-color: #fcfcfd;
+    font: 300 21px/2 "Poppins", sans-serif;
+}
+.fa-map-marker{
+    position: absolute;
+    top: 135px;
+    left: 41px;
+}
+.fa-phone{
+    position: absolute;
+    top: 235px;
+    left: 41px;
+}
+.fa-envelope{
+    position: absolute;
+    top: 334px;
+    left: 41px;
+}
+ul.contacts-list > li:nth-child(1) {
+    margin: 15px 0;
+    color: #6a737b;
+    padding-left: 50px;
+}
+ul.contacts-list > li:nth-child(2) {
+    margin: 15px 0;
+    color: #6a737b;
+    padding-left: 50px;
+}
+ul.contacts-list > li:nth-child(3) {
+     margin: 15px 0;
+     color: #6a737b;
+     padding-left: 50px;
+}
+ul.contacts-list > li:nth-child(4) {
+    margin: 15px 0;
+    color: #6a737b;
+    padding-left: 50px;
+}
+ul.contacts-list > li > h4 {
+    font: 600 25px/2 "Poppins", sans-serif;
+    color: #222222;
+}
+.list-button-item{
+    padding:0;
+}
+ul.contacts-list > li > button {
+    margin:0;
+    padding: 20px 135px;
+    background-color: darkturquoise;
+    color: #fcfcfd;
+    font: 400 22px/1 "Poppins", sans-serif;
+    border: none;
+}
+.social > i{
+    background-color: lightblue;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    color: #fcfcfd;
+    line-height: 52px;
+    font-size: 20px;
+    margin: 20px 8px;
+}
+
+.footer-list{
+    list-style: none;
+
+}
+.footer-list > li {
+    display: inline-block;
+}
+.footer-list > li > a {
+    margin: 15px;
+    color: #1E90FF;
+    font: 400 18px/1 "Poppins", sans-serif;
+}
+.copyright-text{
+    color: lightblue;
+    font: 400 18px/1 "Poppins", sans-serif;
+
+}
+.social::after {
+    content: "";
+    display: block;
+    width: 1100px;
+    height: 2px;
+    margin: 20px auto;
+    background-color: #eee;
 }
