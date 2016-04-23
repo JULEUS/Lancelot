@@ -244,6 +244,7 @@ h4 {
     padding: 0;
     font: 300 17px/28px "Poppins", sans-serif;
     color: #A9A9A9;
+    float: left;
 }
 
 .block-arrow {
@@ -286,7 +287,10 @@ h4 {
     width: 25%;
     margin: 0 20px;
 }
-
+.benefits-block-1 > h4{
+	float: left;
+	font:600 20px/28px "Poppins", sans-serif;
+}
 @font-face {
     font-family: "Flaticon";
     src: url("./110798-linecons/font/Flaticon.eot");
@@ -305,8 +309,8 @@ h4 {
     font-size: 35px;
     color: #0f33ff;
     position: absolute;
-    top: 30px;
-    left: -23px;
+    top: 40px;
+    left: -45px;
 }
 
 .flaticon-location-gps::before {
@@ -335,6 +339,8 @@ h4 {
 
 .p-left {
     text-align: left;
+    font: 300 15px/25px "Poppins", sans-serif;
+    width: 280px;
 }
 
 .section-vertical-blocks {
@@ -360,7 +366,12 @@ h4 {
     padding: 0;
 }
 
-.block-description {
+.section-4 > .block-2 > h4{
+	float: left;
+	font:600 20px/28px "Poppins", sans-serif;
+}
+.right-flaticon-block{
+	padding-left: 75px;
 }
 
 .flaticon-small-key::before {
@@ -387,6 +398,19 @@ h4 {
     content: "\f12e";
 }
 
+
+.flaticon-big-megaphone, .flaticon-user-avatar{
+	top: 244px;
+	left:-43px;
+}
+.flaticon-diamond, .flaticon-wristwatch{
+	top: 439px;
+	left:-43px;
+}
+.img-clock-flaticon{
+	margin: 148px 0;
+
+}
 .section-5 {
     display: block;
     margin: 150px 0 100px 0;
@@ -726,7 +750,7 @@ a {
 }
 
 .section-13{
-    height:1200px;
+    height:1350px;
 }
 .timeline-table {
     font-size: 0;
@@ -1019,6 +1043,12 @@ ul.contacts-list > li > h4 {
 .list-button-item{
     padding:0;
 }
+.list-button-item > button > a {
+    color: white;
+}
+.list-button-item > button:hover{
+	background: #696969;
+}
 ul.contacts-list > li > button {
     margin:0;
     padding: 20px 135px;
@@ -1037,10 +1067,12 @@ ul.contacts-list > li > button {
     font-size: 20px;
     margin: 20px 8px;
 }
-
+.social > i:hover{
+	background: #696969;
+}
 .footer-list{
     list-style: none;
-
+    text-align: center;
 }
 .footer-list > li {
     display: inline-block;
@@ -1048,18 +1080,21 @@ ul.contacts-list > li > button {
 .footer-list > li > a {
     margin: 15px;
     color: #1E90FF;
-    font: 400 18px/1 "Poppins", sans-serif;
+    font: 400 16px/1 "Poppins", sans-serif;
+}
+.footer-list > li > a:hover{
+	color: #696969;
+}
+.footer-list > li+li:before{
+	content: '\2022';
+    float: left;
+    line-height: 15px;
+    display: block;
+    color: #1E90FF;
 }
 .copyright-text{
-    color: lightblue;
-    font: 400 18px/1 "Poppins", sans-serif;
+    color: grey;
+    font: 400 16px/1 "Poppins", sans-serif;
+    text-align: center;
+}
 
-}
-.social::after {
-    content: "";
-    display: block;
-    width: 1100px;
-    height: 2px;
-    margin: 20px auto;
-    background-color: #eee;
-}
